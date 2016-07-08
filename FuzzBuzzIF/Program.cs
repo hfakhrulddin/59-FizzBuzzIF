@@ -17,24 +17,22 @@ namespace FuzzBuzzIF
                 if ((i % 3 == 0) && (i % 5 == 0))
                 {
                     Console.Write("FizzBuzz" + "\r\n");
-                    continue;
                 }
+
                 if (i % 3 == 0)
                 {
                     Console.Write("Fizz" + "\r\n");
-                    continue;
                 }
 
                 if (i % 5 == 0)
                 {
                     Console.Write("Buzz" + "\r\n");
-                    continue;
                 }
 
                 else
 
                 { Console.WriteLine(i); }
-
+      
             }
 
             Console.Read();
